@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div
+          class="py-5 d-md-block d-flex flex-column justify-content-center align-items-center"
+        >
+          <div class="brand-logo d-flex pt-5 mb-5">
+            <img src="/assets/logo.png" alt="" />
+            <h1 class="text-uppercase">Discover <span>Forwardism</span></h1>
+          </div>
+          <div class="header-text mb-5">
+            <p class="text-uppercase mb-0">
+              <span>Датум:</span> 17 Декември 2022
+            </p>
+            <p class="text-uppercase mb-0"><span>Час:</span> 20.00 ч</p>
+            <p class="text-uppercase"><span>Место:</span> Ragusa 360 rooftop</p>
+          </div>
+
+          <button class="btn btn-primary p-3">
+            Потврдете го Вашето учество
+          </button>
+        </div>
+        <div class="row">
+          <div class="col-8 offset-2">
+            <div class="row my-5">
+              <div class="col-md-3 col-sm-6 col-12 mb-3">
+                <div
+                  class="box d-flex flex-column justify-content-center align-items-center py-4"
+                >
+                  <h2 class="box-num mb-3">17</h2>
+                  <p class="box-text text-uppercase">денови</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-12 mb-3">
+                <div
+                  class="box d-flex flex-column justify-content-center align-items-center py-4"
+                >
+                  <h2 class="box-num mb-3">0</h2>
+                  <p class="box-text text-uppercase">часови</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-12 mb-3">
+                <div
+                  class="box d-flex flex-column justify-content-center align-items-center py-4"
+                >
+                  <h2 class="box-num mb-3">59</h2>
+                  <p class="box-text text-uppercase">минути</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-12 mb-3">
+                <div
+                  class="box d-flex flex-column justify-content-center align-items-center py-4"
+                >
+                  <h2 class="box-num mb-3">22</h2>
+                  <p class="box-text text-uppercase">секунди</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="info-image">
+              <img src="/assets/img-1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-5 offset-md-1">
+            <div class="info-heading d-flex align-items-center mb-5">
+              <span class="info-heading-left">
+                THE<br />
+                NEW
+              </span>
+              <span class="info-heading-right">i7.</span>
+            </div>
+            <p class="info-text">
+              Луксузот има ново значење. Дозволете ни да ви ја презентираме
+              неговата нова форма. Ве покануваме да а запознаете најзивонредната
+              едиција на BMW серија 7 досега - новиот, целосно електричен
+              луксузен седан THE i7.
+              <br />
+              <br />
+              Со почит,
+              <span>M Car</span>
+            </p>
+            <div class="info-logo mb-2">
+              <img src="/assets/logos.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact py-5">
+      <div class="container">
+        <div class="col-md-8 offset-md-2">
+          <div class="contact-content">
+            <div class="d-flex justify-content-center mb-4">
+              <h2 class="contact-title text-uppercase">
+                Потврдете го <span>вашето присуство</span>
+              </h2>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label for="firstName" class="form-label">Име*</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Внесете го вашето име"
+                    id="firstName"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label for="lastName" class="form-label">Презиме*</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Внесете го вашето презиме"
+                    id="lastName"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label for="exampleEmail" class="form-label">Email*</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Внесете ја вашата e-mail адреса"
+                    id="exampleEmail"
+                    aria-describedby="emailHelp"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label for="phoneNum" class="form-label"
+                    >Телефонски број*</label
+                  >
+                  <input
+                    type="tel"
+                    class="form-control"
+                    placeholder="Внесете го вашиот телефонски број"
+                    id="phoneNum"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center my-5">
+              <button type="submit" class="btn btn-primary py-2 px-4">
+                Потврдете
+              </button>
+            </div>
+            <div class="d-flex justify-content-center">
+              <p class="text-center contact-note">
+                *Согласен/на сум моите одговори од овој прашалник да бидат
+                препратени до Друштвото за трговија и услуги М Кар Дооел Скопје
+                (BMW/MINI) <br />
+                и да бидат собирани, чувани, употребувани за потребите за
+                ирганизација за овој настан.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <footer
+        class="footer d-flex justify-content-between align-items-center py-4"
+      >
+        <div class="footer-brand">M Car</div>
+        <div class="footer-links d-flex flex-column flex-md-row">
+          <a href="">BMW Македонија</a>
+          <a href="mailto:marketing@m-car.mk">marketing@m-car.mk</a>
+          <a href="tel:+389071213303">071 213 303</a>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
